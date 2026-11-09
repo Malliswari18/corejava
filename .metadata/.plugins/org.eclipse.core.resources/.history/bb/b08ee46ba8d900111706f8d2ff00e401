@@ -1,0 +1,30 @@
+package hashmap;
+
+public class Country {
+	private static final String Country = null;
+	int countrycode;
+	String countryname;
+	String population;
+	public Country(int countryCode,String countryName,String population) {
+		this.countrycode=countryCode;
+		this.countryname=countryName;
+		this.population=population;
+		
+		
+	}
+	@Override
+	public int hashCode() {
+		return countrycode;
+	}
+
+	public boolean equals(Object obj) {
+		if(obj instanceof Country) {
+			Country c=(Country)obj;
+			return this.countrycode=c.countrycode;
+			
+			
+			
+		}
+		return false;
+	}
+}

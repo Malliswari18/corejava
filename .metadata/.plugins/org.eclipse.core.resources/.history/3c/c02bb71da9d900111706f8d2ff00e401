@@ -1,0 +1,13 @@
+package hashmap;
+
+public class countryHashMap {
+	public static void main(String[] args) {
+		Country c1=new Country(91,"India","1.48b");
+		Country c2=new Country(1,"usa","349.7m");
+		Country c3=new Country(7,"russia","456.4m");
+		Country c4=new Country(34,"spain","34.56m");
+		Country c5=new Country(34,"spain","34.56m");
+		Country c6=new Country(55,"brazil","214.56m");
+	}
+
+}

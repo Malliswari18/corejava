@@ -1,0 +1,11 @@
+package hashmap;
+import java.util.*;
+public class Demo2 {
+	public static void main(String[] args) {
+		HashMap<Integer,String>players=new HashMap<Integer,String>();
+		players.put(18, "virat kohli");
+		players.put(7, "dhoni");
+		players.put(null, null)
+	}
+
+}

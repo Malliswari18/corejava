@@ -1,0 +1,8 @@
+package set.treeset.example;
+
+public class ShoeApp {
+	public static void main(String[] args) {
+		
+	}
+
+}

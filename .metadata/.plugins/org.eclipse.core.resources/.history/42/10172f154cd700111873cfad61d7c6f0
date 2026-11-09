@@ -1,0 +1,20 @@
+package treeset_comparable;
+
+public class Mobile {
+	public class Mobile implements Comparable<Mobile>{
+		int id;
+		String model;
+		double price;
+		public Mobile(int id,String name,double price, String model) {
+			this.id=id;
+			this.model=model;
+			this.price=price;
+		}
+		@Override
+		public int compareTo(Mobile o) {
+			int result=this.id-o.id;
+			return result;
+		}
+	}
+
+}

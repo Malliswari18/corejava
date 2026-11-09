@@ -1,0 +1,20 @@
+package hashmap;
+
+public class Country {
+	int countrycode;
+	String countryname;
+	String population;
+	public Country(int countryCode,String countryName,String population) {
+		this.countrycode=countryCode;
+		this.countryname=countryName;
+		this.population=population;
+		
+		
+	}
+	@Override
+	public int hashCode() {
+		return countrycode;
+	}
+
+	
+}

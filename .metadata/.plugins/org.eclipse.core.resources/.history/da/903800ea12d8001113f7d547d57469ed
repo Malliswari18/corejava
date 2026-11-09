@@ -1,0 +1,15 @@
+package set.treeset.example;
+import java.util.*;
+public class ShoeApp {
+	public static void main(String[] args) {
+		Shoe s1=new Shoe("nike",1256.4,"blue", 8);
+		Shoe s2=new Shoe("adidas",1256.4,"blue", 4);
+		Shoe s3=new Shoe("Puma",1256.4,"blue", 6);
+		Shoe s4=new Shoe("COmet",1256.4,"blue", 7);
+		Treeset<Shoe> shoes=new Treeset<Shoe>();
+		
+		
+		
+	}
+
+}

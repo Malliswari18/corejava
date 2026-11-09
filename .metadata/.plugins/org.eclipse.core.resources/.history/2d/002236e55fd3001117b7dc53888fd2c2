@@ -1,0 +1,24 @@
+package set.hashset;
+import java.util.*;
+
+public class StudentApp {
+	public static void main(String[] args) {
+		Student s1=new Student ("tom",21);
+		Student s2=new Student ("tom",21);
+		Student s3=new Student ("tom",21);
+		Student s4=new Student ("tom",21);
+		HashSet <Student> hs=new HashSet<Student>();
+		hs.add(s1);
+		hs.add(s2);
+		hs.add(s3);
+		hs.add(s4);
+		System.out.println(hs.size());
+		System.out.println(hs);
+		System.out.println(s1.HashCode());
+		System.out.println(s2.HashCode());
+		
+	
+		
+	}
+
+}

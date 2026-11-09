@@ -1,0 +1,25 @@
+package set.treeset.example;
+
+public class Shoe {
+	String brand;
+	Double price;
+	String Color;
+	int size;
+	public Shoe(String brand,double price,String color,int size) {
+		this.brand=brand;
+		this.price=price;
+		this.Color=color;
+		this.size=size;
+	}
+	/*default Sorting mechanism*/
+	@Override
+	public int compareTo(Shoe existingElement) {
+		return this.brand.compareTo(existingElement.brand)
+				;
+	}
+	@Override
+	public String toString() {
+		
+	}
+
+}

@@ -1,0 +1,6 @@
+package set.treeset.example;
+import java.util.Comparator;
+public class SortByIdAscending implements Comparator<shoe> {
+	
+
+}

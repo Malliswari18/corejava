@@ -1,0 +1,35 @@
+package treeset_comparable;
+import java.util.*;
+public class Mobile {
+	public Mobile(int id, String model, int price) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public class Mobile implements Comparable<Mobile>{
+		int id;
+		String model;
+		double price;
+		public Mobile(int id,String name,double price, String model) {
+			this.id=id;
+			this.model=model;
+			this.price=price;
+		}
+		/* sorting based on model*/
+		@Override
+		public int compareTo(Mobile o) {
+			int result=this.model.compareTo(o.model);
+			return result;
+		}
+		/*sorting based on price*/
+		@Override
+		public int compareTo(Mobile o) {
+			int result =this.price.comapreTo(o.price);
+			return result;
+		}
+		@Override
+		public String toString() {
+			return "mobile:"+id +model+price;
+		}
+	}
+
+}

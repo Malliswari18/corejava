@@ -1,0 +1,20 @@
+package list.linkedlist;
+import java.util.*;
+public class EmployeeApp {
+	public static void main(String] args) {
+	Employee emp1=new Employee(101,"malli",2000);
+	Employee emp2=new Employee(102,"sai",3000);
+	Employee emp3=new Employee(103,"ramya",4000);
+	LinkedList<Employee> l=new LinkedList<Employee>();
+	l.add(emp1);
+     l.add(emp2);
+	l.add(emp3);
+	for(Employee e:l) {
+		System.out.println(e);
+	}
+	
+	
+	
+}
+
+

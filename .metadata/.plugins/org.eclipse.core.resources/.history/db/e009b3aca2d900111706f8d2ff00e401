@@ -1,0 +1,40 @@
+package hashmap;
+import java.util.*;
+public class Demo2 {
+	public static void main(String[] args) {
+		HashMap<Integer,String>players=new HashMap<Integer,String>();
+		players.put(18, "virat kohli");
+		players.put(7, "dhoni");
+		players.put(1, "KL rahul");
+		players.put(33, "hardik");
+		players.put(45, "rohit");
+		System.out.println(players.put(19, "rohith Sharma"));
+		System.out.println(players.put(10, "sachin Tendulkar"));
+		System.out.println(players.size());
+		System.out.println(players);
+		
+		System.out.println("-----------------");
+		
+		/*keSet() returns a unique values present in the Map*/
+		Set<Integer> keys=players.keySet();
+		for(int i:keys) {
+			System.out.println(i);
+			
+		}
+		/* values() returns all the values present in the Map*/
+		Collection<String> values=players.values();
+		for(String s:values) {
+			System.out.println(s);
+		}
+		System.out.println("-----------------");
+		/*printing both keys and values together*/
+		Set<Integer> allKeys=players.keySet();
+		for(int i:allKeys) {
+			System.out.println(i+"->"+players.get(i));
+		}
+		
+		
+				
+	}
+
+}

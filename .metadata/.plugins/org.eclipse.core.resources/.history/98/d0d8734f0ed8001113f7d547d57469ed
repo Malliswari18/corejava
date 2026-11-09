@@ -1,0 +1,11 @@
+package compareEx;
+
+public class SortByIdDescending {
+	@Override
+	public int compare(Employee newElement,Employee existingELement) {
+		int result=existingElement.id-newElement.id;
+		return resultl
+	}
+	
+
+}

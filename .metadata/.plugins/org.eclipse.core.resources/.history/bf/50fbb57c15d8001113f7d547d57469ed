@@ -1,0 +1,10 @@
+package set.treeset.example;
+import java.util.Comparator;
+public class SortByIdAscending implements Comparator<Shoe> {
+	@Override
+	public int Compare(Shoe newElement,Shoe existingElement) {
+	return newElement.price.compareTo(existingElement.price);
+	}
+	
+
+}

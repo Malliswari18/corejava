@@ -1,0 +1,15 @@
+package set.hashset;
+import java.util.*;
+
+public class StudentApp {
+	public static void main(String[] args) {
+		Student s1=new Student ("tom",21);
+		Student s1=new Student ("tom",21);
+		Student s1=new Student ("tom",21);
+		Student s1=new Student ("tom",21);
+		HashSet <Student> hs=new HashSet<Student>();
+	
+		
+	}
+
+}
